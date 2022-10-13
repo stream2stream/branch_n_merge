@@ -1,5 +1,4 @@
 package com.lbg;
-
 /**
  * Hello world!
  *
@@ -8,6 +7,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Accumulator result = new Accumulator();
+        System.out.println( result.sum(1,1) );
     }
 }
